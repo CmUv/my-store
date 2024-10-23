@@ -37,9 +37,14 @@ app.get('/products', (req, res) => {
   });
 });
 
+app.get('/post-rute', (req, res) => {
+  res.send("ruta de post");
+});
+
+
 /* app.listen(port, () => {
   console.log('My port: ' + port);
 }); */
 app.listen(port,()=>{
-  console.log(`Listening at http://localhost:${port}`)
+  console.log(`puerto habiltado http://localhost:${port}`)
 })
